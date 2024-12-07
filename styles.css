@@ -86,6 +86,7 @@ fieldset {
 
 legend {
     font-weight: 700;
+    font-size: 20px;
 }
 
 button {
@@ -158,4 +159,8 @@ p {
 
 #test:hover {
     background-color: #000;
+}
+
+#results-wrapper {
+    line-height: 2em;
 }
