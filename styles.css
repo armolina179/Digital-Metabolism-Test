@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 20px;
+    overflow: auto;
+}
+
+h1, h2, h3 {
+    font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size:3em;
+}
+
+fieldset {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal; 
+    padding: 10px;
+    line-height: 30px;
+    padding-left: 100px;
+}
+
+legend {
+    font-weight: 700;
+}
+
+button {
+    display: block;
+    width: 40%;
+    padding: 20px;
+    background: #000000;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Archivo Black", serif;
+    margin: 0 auto;
+}
+
+button:hover {
+    background: #cccccc;
+    color: #000;
+}
+
+#button {
+    margin-top: 20px;
+}
+
+a {
+    color: #000;
+    font-family: "Space Mono", serif;
+}
+
+p { 
+    font-family: "Space Mono", serif;
+    line-height: 2em;
+    margin-bottom: 50px;
+}
+
+#heading {
+    padding-left: 0;
+    text-align: left;
+}
+
+#learn {
+    text-decoration: none;
+}
+
+#learn:hover {
+    background-color: #125b50;
+    padding: 8px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+}
+
+#index-body-img {
+    padding-right: 100px;
+}
