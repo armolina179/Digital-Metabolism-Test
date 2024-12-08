@@ -116,7 +116,7 @@ a {
     font-family: "Space Mono", serif;
 }
 
-p { 
+p, li { 
     font-family: "Space Mono", serif;
     line-height: 2em;
     margin-bottom: 50px;
@@ -138,10 +138,11 @@ p {
     color: #fff;
 }
 
-#wrapper {
+#index-wrapper {
     display: flex;
     justify-content: space-between;
     font-size: 21px;
+    margin-top: 20px;
 }
 
 #index-body-img {
@@ -161,6 +162,58 @@ p {
     background-color: #000;
 }
 
+#nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-link {
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #125b50;
+}
+
+#nav-link:hover {
+    background-color: #000;
+}
+
+#grid-results {
+    width: 500px;
+}
+
 #results-wrapper {
-    line-height: 2em;
+    display: flex;
+}
+
+#results-wrapper h3 {
+    text-align: left;
+    font-size: 25px;
+}
+
+#results-wrapper p, li {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+#results-wrapper img {
+    padding-left: 50px;
+    padding-top: 250px;
+}
+
+footer {
+    margin-top: 300px;
+    font-size: 14px;
+}
+
+ul {
+    margin: 0 auto;
+    width: 65%;
+}
+
+strong {
+    font-weight: 700;
 }
